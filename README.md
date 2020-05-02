@@ -17,6 +17,9 @@ For real time facial emotion recognition, execute command:
 For detecting the facial expression in a test image you can execute the command:
 `python3 image_test.py test.jpg`
 
+Used a CNN based appoach for the detection of facial expressions. The code for the CNN model is in the [Facial_CNN.ipynb](https://github.com/arnav8/Facial-Expression-Recognition/blob/master/Facial_CNN.ipynb).
+The Trained model is [Present here](https://github.com/arnav8/Facial-Expression-Recognition/blob/master/model_5-49-0.62.hdf5) give an accuracy of approximately 90% after training for 200 epochs.
+
 # Image testing example
 ![alt text](https://github.com/arnav8/Facial-Expression-Recognition/blob/master/result_emotion_detection_arnav.jpg "Logo Title Text 1")
 
