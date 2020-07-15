@@ -1,4 +1,5 @@
-# I have used command line arguments for image IN LINE:41 , so make sure to put it while executing or else you will get error
+# Used command line arguments for image IN LINE:41 ,
+# make sure to supply command line arguments while executing or else you will get error
 import cv2
 import numpy as np
 from keras.models import load_model
