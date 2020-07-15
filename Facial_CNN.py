@@ -49,8 +49,8 @@ test_y = np.array(test_y,'float32')
 train_y=np_utils.to_categorical(train_y, num_classes=num_labels)
 test_y=np_utils.to_categorical(test_y, num_classes=num_labels)
 
-#cannot produce
-#normalizing data between oand 1
+# cannot produce
+# normalizing data between 0 and 1
 X_train -= np.mean(X_train, axis=0)
 X_train /= np.std(X_train, axis=0)
 
